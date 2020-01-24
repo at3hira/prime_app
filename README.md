@@ -10,12 +10,12 @@
 <br>
 ### laravelプロジェクト立ち上げまで
 ```
- #docker起動 <br>
- $ docker-compose up -d --build <br><br>
+ #docker起動
+ $ docker-compose up -d --build
  
- #phpのコンテナに入る <br>
- $ docker exec -it php.7.3 bash <br><br>
+ #phpのコンテナに入る
+ $ docker exec -it php.7.3 bash
 
- #laravelプロジェクト作成 <br>
+ #laravelプロジェクト作成
  $ laravel new [project name]
 ```
